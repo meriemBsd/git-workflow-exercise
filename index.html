@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <title>My Project</title>
-    </head>
-    <body>
-    <h1>Welcome to My Project</h1>
-    <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br>
+<html>
+<head>
+<title>My Project</title>
+</head>
+<body>
+<h1>Welcome to My Project</h1>
+<p>This is a description of my project and its goals.</p>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br>
-    </form>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br>
 
-    <script>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br>
 
-    </script>
-    </body>
+<input type="submit" value="Submit">
+</form>
+
+<script>
+document.getElementById("btn-alert").addEventListener("click", function(){
+alert("Thank you for submitting the form!");});
+</script>
+</body>
 </html>
